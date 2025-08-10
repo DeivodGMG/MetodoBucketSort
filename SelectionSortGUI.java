@@ -1,10 +1,7 @@
-package selectionsortgui;import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.GeneralPath;
 import java.awt.image.BufferedImage;
-import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Arrays;
@@ -12,6 +9,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
+import javax.imageio.ImageIO;
+import javax.swing.*;
 
 public class SelectionSortGUI extends JFrame {
 
